@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+		function show() {
+			 var todaydate=new Date();
+			 document.getElementById("res").innerHTML=todaydate;
+			// body...
+			 setTimeout(show,1000,"javascript");
+		}
+	</script>
+	
+</head>
+<body>
+	<button onload="show()">
+		
+
+	</button>
+	<br>
+	<div id="res"></div>
+
+</body>
+</html>
